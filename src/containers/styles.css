@@ -1,0 +1,146 @@
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.flipClock {
+  color: black;
+  margin: auto;
+}
+
+.App-content {
+  margin: 0;
+  padding: 0;
+  background-color: #18191A;
+  min-height: 100vh;
+  padding-top: 15vh;
+  color: white;
+}
+
+.rss-feed-post-container {
+  width: 70vw;
+  color: white;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 2vh;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 35px;;
+  background-color: #232526;
+}
+
+.fb-post-profile-pic-container {
+  width: 50px;
+  height: auto;
+  
+  display: inline-block;
+}
+
+.fb-post-profile-pic {
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: inherit;
+}
+
+.fb-post-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.fb-post-title-container {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.fb-post-title-text, .fb-post-title-text:hover {
+  margin: 0; 
+  padding: 0;
+  display: block;
+  color: #E1E2E8;
+}
+
+.margin-content {
+  padding: 0 5vw 0 5vw;
+}
+
+.my-button {
+  margin: 5px;
+}
+body * {
+	font-family: 'Nunito', sans-serif;
+	box-sizing: border-box;
+}
+
+/* body {
+	background-color: #142F4C;
+} */
+
+#countdown-wrap {
+  width: 100%;
+  height: 300px;
+  /* border: 1px solid black; */
+  padding: 20px;
+  font-family: arial;
+  max-width: 650px;
+  margin: 150px auto 300px;
+}
+
+#goal {
+  font-size: 48px;
+  text-align: right;
+  color: #FFF;
+  @media only screen and (max-width : 640px) {
+    text-align: center;  
+  }
+  
+}
+
+#glass {
+  width: 100%;
+  height: 20px;
+  background: #c7c7c7;
+  border-radius: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+#progress {
+  float: left;
+  width: 16%;
+  height: 20px;
+  background: #FF5D50;
+  z-index: 333;
+  /* border-radius: 5px; */
+}
+
+.goal-stat {
+  width: 25%;
+  /* height: 30px; */
+  padding: 10px;
+  float: left;
+  margin: 0;
+  color: #FFF;
+  
+  @media only screen and (max-width : 640px) {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.goal-number, .goal-label {
+  display: block;
+}
+
+.goal-number {
+  font-weight: bold;
+}
